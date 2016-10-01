@@ -10,8 +10,8 @@ nav {
 	width: 100%;
 }
 
-nav .icon-img {
-	height: 50px
+.icon-img {
+	height: 50px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 50%;
@@ -28,6 +28,10 @@ nav li {
 	display: inline-block;
 	border-right: solid 1px;
 	padding-right: 4px;
+}
+
+body * {
+	box-sizing: border-box;
 }
 
 /*body {
